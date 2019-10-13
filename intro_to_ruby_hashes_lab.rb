@@ -1,5 +1,5 @@
 def base_hash
-	:hash => :key
+	{:hash => :key}
 	key = "railroads"
 	p hash
   # Remember implicit return! We're returning this new Hash _without_ the
